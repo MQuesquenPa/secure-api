@@ -1,0 +1,10 @@
+spring:
+  profiles: qa
+
+  datasource:
+    url: jdbc:mysql://miservidorqa-db:3306/security_qa?useSSL=false&serverTimezone=UTC
+    username: qa_user
+    password: qa_password
+
+jwt:
+  secret: qaSecretKeyForSecureApi
